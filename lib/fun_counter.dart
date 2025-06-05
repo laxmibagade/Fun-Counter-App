@@ -55,6 +55,7 @@ class _FunCounterState extends State<FunCounter> {
               children: [
                 Column(
                   children: [
+                    // Font Size Grower
                     Text(
                       "$counter",
                       style: TextStyle(
@@ -77,6 +78,7 @@ class _FunCounterState extends State<FunCounter> {
                 ),
                 Column(
                   children: [
+                    // Emoji Mood Counter
                     Text(
                       "$emoji",
                       style:
@@ -103,6 +105,7 @@ class _FunCounterState extends State<FunCounter> {
               height: 70,
             ),
             Row(
+              // Shape Switcher
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
                 GestureDetector(
@@ -139,6 +142,7 @@ class _FunCounterState extends State<FunCounter> {
                 SizedBox(
                   height: 50,
                 ),
+                // Color Change Counter
                 ElevatedButton(
                     onPressed: () {
                       setState(() {

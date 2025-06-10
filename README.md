@@ -20,24 +20,24 @@ Dart
 StatefulWidget and setState()
 
 📷 Screenshots
-![alt text](Screenshot_1749060699.png)
+<img src="Screenshot_1749060623.png" alt="image not found" height=300>
 
 📁 Folder Structure
 
-lib/
- └── main.dart       // Main entry point with UI and logic
+lib/<br>
+ └── main.dart       
  └── fun_counter.dart   
 
 How to Run
 Make sure Flutter SDK is installed.
 
-Clone this repository:
+Clone this repository:<br>
 git clone https://github.com/your-username/fun_counter.git
 
-Navigate to the project folder:
+Navigate to the project folder:<br>
 cd fun_counter
 
-Run the app:
+Run the app:<br>
 flutter run
 
 
